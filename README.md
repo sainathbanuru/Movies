@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
-This project uses "The Movies Database API".
+This project uses [The Movies Database API](https://developers.themoviedb.org/).
 
 To run the application:
 
