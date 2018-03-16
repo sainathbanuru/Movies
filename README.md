@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
+This project uses "The Movies Database API".
+
 To run the application:
 
   Move into the project directory and type `npm install`.
