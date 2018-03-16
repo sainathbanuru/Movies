@@ -1,7 +1,14 @@
 import React from 'react';
 import { StackNavigator, TabNavigator, DrawerNavigator } from 'react-navigation';
-import { CurrentMovies, TopMovies, UpcomingMovies, MoviesDetail } from './Movies';
-import { TopRatedTV, TopSeries, TvAiringToday, SeriesDetail} from './series';
+import MyApp from './MyHomeScreen';
+import CurrentMovies from './Movies/CurrentMovies';
+import TopMovies from './Movies/TopMovies';
+import UpcomingMovies from './Movies/UpcomingMovies';
+import MoviesDetail from './Movies/MoviesDetail';
+import TopRatedTV from './series/TopRatedTv';
+import TopSeries from './series/TopSeries';
+import TvAiringToday from './series/TvAiringToday';
+import SeriesDetail from './series/SeriesDetail';
   
 const current = StackNavigator({
     Home: { screen : CurrentMovies},
@@ -34,15 +41,13 @@ const airingToday = StackNavigator({
 });
 
 const MainNavigator = DrawerNavigator({
-
     Home: {screen: current},
     topMovies: { screen: moviesTop },
     upcomingMovies: { screen: moviesUpcoming},
     topRatedTv: {screen: tvTop},
     popularTv: { screen: popularTV},
     airingToday: { screen: airingToday}
-  
-    },{
+  },{
     
     contentOptions:{
       labelStyle: {

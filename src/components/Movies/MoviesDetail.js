@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 
 class MoviesDetail extends Component{
     static navigationOptions = {
-        title: 'Movies Detail',
+        title: 'Movie Details',
         drawerLabel:'current movies',
         headerTintColor: 'white',
         headerStyle:{
