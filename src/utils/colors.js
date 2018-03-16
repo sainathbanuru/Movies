@@ -1,0 +1,1 @@
+export const statusBarColor = '#123abc';
